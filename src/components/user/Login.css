@@ -1,6 +1,5 @@
-
 .body {
-    background-image: url(https://media.istockphoto.com/id/1360927961/photo/abstract-background-with-interweaving-of-colored-lines-and-dots-network-connection-structure.jpg?s=612x612&w=0&k=20&c=UTu0m3kCMm6f1kien9TNCrFtliESKUMrAeyKkI5s56I=);
+    background-image: url("C:\Users\LENOVO-V15\akshya\social-react\public\images\fbimg.jpg");
     background-size: cover;
     height: 100vh;
     margin: 0;
@@ -10,8 +9,9 @@
 }
 
 .login-container {
-    max-width: 400px;
-    padding: 45px;
+    margin-left: 420px;
+    /* max-width: 400px; */
+    padding: 30px;
     border: 1px solid #7a7979;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.6);
@@ -20,7 +20,7 @@
 .login-input {
     width: 100%;
     margin-top: 10px;
-    padding: 13px;
+    padding: 10px;
     border: 1px solid #e9e5e5;
     border-radius: 5px;
     box-sizing: border-box;
@@ -40,4 +40,11 @@
 
 .login-button:hover {
     background-color: #073c75;
+}
+
+.login-container h1 {
+    margin-top: -15px;
+    text-align: center;
+    font-family: "sans-serif";
+    font-size: 40px;
 }
